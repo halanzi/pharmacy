@@ -2,7 +2,11 @@ const styles = {
   body: { backgroundColor: "#FBFEFC" },
   text: { textAlign: "center" },
   pharmaImage: { width: "400px", height: "400px" },
-  pharmas: { margin: "20px" },
+  pharmas: {
+    display: "inline-block",
+    paddingLeft: "150px",
+    paddingTop: "20px",
+  },
   shopImage: {
     display: "block",
     marginLeft: "auto",
