@@ -8,7 +8,7 @@ import styles from "../styles.js";
 
 // styling every product "item"
 const Pharmaitem = (props) => {
-  const pharma = props.meds;
+  const pharma = props.med;
   return (
     <div style={styles.pharmas} key={pharma.id}>
       <img style={styles.pharmaImage} alt={pharma.name} src={pharma.image} />

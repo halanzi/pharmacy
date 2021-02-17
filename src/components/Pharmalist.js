@@ -6,7 +6,7 @@ import Pharmaitem from "./PharmaItems.js";
 
 const PharmaList = () => {
   const pharmaList = product.map((meds) => (
-    <Pharmaitem meds={meds} key={meds.id} />
+    <Pharmaitem med={meds} key={meds.id} />
   ));
   return pharmaList;
 };
